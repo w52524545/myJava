@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Wed Oct 04 00:40:31 CST 2017
+org.eclipse.jst.jee.server\:yanzheng=D\:\\Program Files\\Tomcat 8.5\\webapps\\yanzheng
+org.eclipse.jst.jee.server\:jfinal4do=D\:\\Program Files\\Tomcat 8.5\\webapps\\jfinal4do
+org.eclipse.jst.jee.server\:ssm=D\:\\Program Files\\Tomcat 8.5\\webapps\\ssm
+org.eclipse.jst.jee.server\:BarberShop=D\:\\Program Files\\Tomcat 8.5\\webapps\\BarberShop

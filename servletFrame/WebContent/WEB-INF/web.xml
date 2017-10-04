@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>servletFrame</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>welcome.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <servlet-class>com.servlet.MyFirstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <url-pattern>/one</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MySecondServlet</servlet-name>
+    <servlet-class>com.servlet.MySecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MySecondServlet</servlet-name>
+    <url-pattern>/two</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>My3Servlet</servlet-name>
+    <servlet-class>com.servlet.My3Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>My3Servlet</servlet-name>
+    <url-pattern>/three</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>MyfourthServlet</servlet-name>
+  <servlet-class>com.servlet.MyfourthServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>MyfourthServlet</servlet-name>
+  <url-pattern>/four</url-pattern>
+</servlet-mapping>
+
+  <servlet>
+    <servlet-name>SessionDemoPutServlet</servlet-name>
+    <servlet-class>com.session.SessionDemoPutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemoPutServlet</servlet-name>
+    <url-pattern>/putAttr</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SessionDemoGetServlet</servlet-name>
+    <servlet-class>com.session.SessionDemoGetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SessionDemoGetServlet</servlet-name>
+    <url-pattern>/getAttr</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>My1Filter</filter-name>
+    <filter-class>com.filter.My1Filter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>My1Filter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-app>

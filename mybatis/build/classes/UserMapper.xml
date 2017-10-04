@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.4.5//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 命名空间,sql隔离 -->
+<mapper namespace="UserMapper">
+<!-- 
+	parameterType 输入参数
+	#{} 占位符
+	#{id} id标识参数名称,但如果输入参数是基本数据类型,#{}中的参数可以任意.
+	
+	resultType 指定输出结果的映射对象
+ -->
+ 	<select id="insert" parameterType="java.util.Map">
+ 	insert into  _user
+ 	(uid,name,gender)
+ 	VALUES
+ 	(#{uid},#{name},#{gender})
+ 	</select>
+ 	
+	<select id="findById" parameterType="int" resultType="user.User">
+		SELECT *
+		FROM _user
+		WHERE uid=#{id}
+	</select>
+	
+	<select id="findList" resultType="user.User">
+		SELECT * FROM _user
+	</select>
+	
+	<select id="findChooise" parameterType="int" resultType="user.User">
+		SELECT * FROM _user
+		<if test="_parameter!=null and _parameter!=''">
+		WHERE uid=#{_parameter}
+		</if>
+	</select>
+	
+	<update id="Update" parameterType="java.util.Map" statementType="STATEMENT">
+	UPDATE ${tableName}
+	SET ${field} = ${value}
+	WHERE ${fid} = ${id}
+	</update>
+
+</mapper>

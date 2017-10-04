@@ -1,0 +1,76 @@
+
+9月 19, 2017 18:51:28.05 NEW SESSION
+9月 19, 2017 18:51:28.08 [16836:14844:0919/185128.047:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 18:53:11.49 [16836:15228:0919/185311.496:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 18:53:42.03 [16836:14844:0919/185342.033:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 18:55:44.26 [16836:15228:0919/185544.269:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 18:56:33.27 [16836:14844:0919/185633.274:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 18:57:27.83 [16836:15228:0919/185727.829:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-118).
+9月 19, 2017 18:57:27.83 [16836:15228:0919/185727.829:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-118).
+9月 19, 2017 18:58:39.91 [16836:15228:0919/185839.918:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:00:07.17 [16836:14844:0919/190007.170:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:02:38.63 [16836:15228:0919/190238.635:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:06:01.97 [16836:14844:0919/190601.974:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:07:56.80 [16836:15228:0919/190756.808:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:15:00.55 [16836:14844:0919/191500.530:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:15:51.66 [16836:15228:0919/191551.661:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:27:06.73 [16836:14844:0919/192706.671:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:27:57.67 [16836:15228:0919/192757.672:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:34:14.61 [16836:14844:0919/193414.611:ERROR:service_manager.cc(142)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+9月 19, 2017 19:39:12.73 [16836:14844:0919/193912.729:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:39:55.95 [16836:15228:0919/193955.840:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 19:43:08.44 [16836:14844:0919/194308.221:ERROR:service_manager.cc(142)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+9月 19, 2017 19:51:19.33 [16836:14844:0919/195119.332:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 19:52:01.99 [16836:15228:0919/195201.993:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 20:03:25.39 [16836:14844:0919/200325.392:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 20:03:53.72 [16836:15228:0919/200353.725:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 20:15:31.44 [16836:14844:0919/201531.441:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 20:15:59.77 [16836:15228:0919/201559.775:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 20:27:37.49 [16836:14844:0919/202737.498:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 20:28:05.84 [16836:15228:0919/202805.848:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 20:32:25.38 [16836:14844:0919/203225.384:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+9月 19, 2017 20:32:47.77 [16836:14844:0919/203247.770:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+9月 19, 2017 20:33:43.69 [16836:14844:0919/203343.693:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -106
+9月 19, 2017 20:39:43.56 [16836:14844:0919/203943.559:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 20:40:11.90 [16836:15228:0919/204011.905:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 19, 2017 20:51:49.63 [16836:14844:0919/205149.633:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 19, 2017 20:52:17.91 [16836:15228:0919/205217.917:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+
+9月 21, 2017 16:48:43.96 NEW SESSION
+9月 21, 2017 16:48:43.96 [9200:5280:0921/164843.951:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 16:51:14.99 [9200:5280:0921/165114.991:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 16:51:22.02 [9200:12680:0921/165122.021:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 16:53:52.14 [9200:12680:0921/165352.140:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 16:54:18.82 [9200:5280:0921/165418.828:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 16:54:21.68 [9200:12680:0921/165421.685:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-118).
+9月 21, 2017 16:54:21.68 [9200:12680:0921/165421.685:ERROR:account_tracker.cc(356)] OnGetTokenFailure: Connection failed (-118).
+9月 21, 2017 16:56:51.86 [9200:12680:0921/165651.865:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 16:57:47.03 [9200:5280:0921/165747.029:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:00:24.14 [9200:12680:0921/170024.139:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:03:16.49 [9200:5280:0921/170316.490:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:05:26.87 [9200:12680:0921/170526.869:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:10:57.31 [9200:5280:0921/171057.306:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+9月 21, 2017 17:12:39.32 [9200:5280:0921/171239.322:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:14:07.85 [9200:12680:0921/171407.852:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:24:45.37 [9200:5280:0921/172445.377:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:26:14.39 [9200:12680:0921/172614.392:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:36:51.43 [9200:5280:0921/173651.428:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:38:20.44 [9200:12680:0921/173820.447:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:48:57.48 [9200:5280:0921/174857.485:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 17:50:26.49 [9200:12680:0921/175026.495:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 17:58:14.00 [9200:5280:0921/175814.006:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+9月 21, 2017 17:58:30.86 [9200:5280:0921/175830.864:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -103
+9月 21, 2017 17:59:53.35 [9200:5280:0921/175953.352:ERROR:ssl_client_socket_impl.cc(1072)] handshake failed; returned -1, SSL error code 1, net_error -101
+9月 21, 2017 18:01:17.87 [9200:12680:0921/180117.863:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 18:01:24.17 [9200:5280:0921/180124.171:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 18:13:23.88 [9200:12680:0921/181323.884:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 18:13:30.24 [9200:5280:0921/181330.247:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 18:16:20.43 [9200:12680:0921/181620.434:ERROR:account_info_fetcher.cc(58)] OnGetTokenFailure: Connection failed (-118).
+9月 21, 2017 18:25:29.94 [9200:12680:0921/182529.940:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 18:25:36.91 [9200:5280:0921/182536.916:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 18:37:36.17 [9200:12680:0921/183736.178:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 18:37:42.97 [9200:5280:0921/183742.979:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 18:49:42.19 [9200:12680:0921/184942.193:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 18:49:49.05 [9200:5280:0921/184949.052:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.
+9月 21, 2017 19:01:48.24 [9200:12680:0921/190148.246:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+9月 21, 2017 19:01:55.09 [9200:5280:0921/190155.094:ERROR:checkin_request.cc(211)] Failed to get checkin response. Fetcher failed. Retrying.

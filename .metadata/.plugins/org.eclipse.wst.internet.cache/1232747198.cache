@@ -1,0 +1,70 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta id="viewport" name="viewport" content="width=480; initial-scale=0.65; maximum-scale=1.0; user-scalable=1;">
+<title>浙江工业大学之江学院（实名制）          </title>
+<script language="JavaScript"><!--
+sv=0;sv1=0;v6='http://[::]:9002/v6                                     ';myv6ip='                                       ';v4serip='192.168.100.2'  ;m46=0;v46ip='10.248.184.31'                          ;
+//--></SCRIPT>
+<style><!--
+a {text-decoration: none; color:#000;}
+body { margin:0; padding:0; text-align:center;}
+.f1 { font-size: 18px; font-family: 微软雅黑; line-height: 40px ; color:#2F2F2F;}
+.f2 { font-size: 22px; font-family: 微软雅黑; line-height: 26px ; color:#2F2F2F;}
+.input-border{border:1px solid #b8b8b8;	width:200px; line-height:30px; font-size:18px; height:30px;}
+.con {width: 480px; height:370px; position:absolute; top:50%;left:50%;margin:-185px 0 0 -240px;border:1px solid #b8b8b8;}
+.login {background-image: url('a01.jpg'); background-repeat: no-repeat; float: left;width: 480px; height:370px;}
+.btn {background:url(a04.jpg) no-repeat left center; height:40px; width:99px; font-family:微软雅黑; border:none; font-size:20px;font-weight:500; line-height:40px; color:#397000;cursor:hand;}
+.btn2 {background:url(a04.jpg) no-repeat left center; height:40px; width:99px; font-family:微软雅黑; border:none; font-size:20px;font-weight:500; line-height:40px; color:#000;cursor:hand;}
+-->
+</style>
+</head>
+<!--Dr.COMWebLoginID_0.htm-->
+<body onselectstart="return false" onload="document.form1.DDDDD.focus();">
+<div class="con">
+<div class="login">
+<div style="width: 350px; height: 305px; float: left;">
+<table border="0" width="100%" cellspacing="1" cellpadding="0" class="f1">
+<form name=form1 method=post action="">
+	<tr>
+		<td height="75" colspan="2">
+		<p align="center">
+		　</td>
+	</tr>
+	<tr>
+		<td height="60" colspan="2">
+		<p align="center" class="f2"><font color="#397000">访问外网实名认证</font></td>
+	</tr>
+	<tr>
+		<td height="55" width="32%" align="right">学号/工号</td>
+		<td height="55" width="67%">&nbsp; <input name="DDDDD" type="text" maxlength="26" class="input-border" ></td>
+	</tr>
+	<tr>
+		<td height="55" width="32%" align="right">密　 　码</td>
+		<td height="55" width="67%">&nbsp; <input name="upass" type="password" maxlength="16" class="input-border"></td>
+	</tr>
+	<tr>
+		<td height="60" width="99%" colspan="2">
+		<p align="center"><input type="submit" name="0MKKey" value="登 录" class="btn"></td>
+	</tr>
+	</form>
+	</table>
+</div>
+
+<div class="f1" style="width: 100px; height: 200px; margin-top:100px; border-left:1px solid #2F2F2F; padding-left:20px; text-align:left; float: left;">
+<font color="#397000">校内站点</font><br>
+<a href="http://www.zjc.zjut.edu.cn">学院主页</a><br>
+<a href="http://mail.zjc.zjut.edu.cn">邮件系统</a><br>
+<a href="http://wlzx.zjc.zjut.edu.cn">网络中心</a><br>
+<a href="http://drcom.zjc.zjut.edu.cn/Self">自助服务</a>
+</div>
+
+<div class="f1" style="width: 480px; height: 20px; margin-top:20px; padding-left:20px;text-align:left; float: left;">
+[网络中心] 地址2B206　电话81112588　　　　<a href="http://wlzx.zjc.zjut.edu.cn/help">帮助</a></div>
+
+</div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;webapps_servletFrame&apos;" deleteContents="false" description="Delete resource &apos;webapps_servletFrame&apos;" element1="/webapps_servletFrame" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1503841095240"/>
+</session>

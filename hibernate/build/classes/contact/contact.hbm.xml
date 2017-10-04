@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 5.2.1//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-5.2.1.dtd">
+<hibernate-mapping package="contact">
+	<class name="contact" table="contact">
+		<id name="id" column="id">
+			<generator class="native" />
+		</id>
+		<property name="phone" column="phone" />
+		<property name="QQ" column="QQ" />
+		<property name="weixin" column="weixin" />
+		<property name="tel" column="tel" />
+		<many-to-one name="person" column="id" unique="true"
+			not-null="true" update="false"  insert="false"/>
+	</class>
+</hibernate-mapping>
