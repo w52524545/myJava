@@ -17,10 +17,32 @@
 		= balance+#{cost}
 		WHERE consumerPhone=#{consumerPhone};
 	</update>
-	<insert id="inHistory" parameterType="java.util.Map">
+	<insert id="inHistory" parameterType="java.util.List">
 		INSERT INTO history
 		(consumerPhone,cost,balance,time,inOrOut,serverPhone,shopPhone)
 		VALUES
 		(#{consumerPhone},#{cost},#{balance},UNIX_TIMESTAMP(),#{inOrOut},#{serverPhone},#{shopPhone})
+	</insert>
+	<select id="selectAllSys" resultType="java.util.Map">
+		SELECT * FROM sys_user;
+	</select>
+	<select id="selectser" resultType="java.util.Map">
+		SELECT * FROM sys_user where
+		role like"server";
+	</select>
+	<select id="selectcon" resultType="java.util.Map">
+		SELECT * FROM consumer;
+	</select>
+	<insert id="AddSys" parameterType="java.util.Map" flushCache="true">
+		INSERT INTO sys_user
+		(phone,pwd,role,name,idcard,shopPhone,shopName)
+		VALUES
+		(#{phone},#{pwd},#{role},#{name},#{idcard},#{shopPhone},#{shopName})
+	</insert>
+	<insert id="AddCou" parameterType="java.util.Map" flushCache="true">
+		INSERT INTO consumer
+		(consumerPhone,shopPhone,serverPhone,name,balance)
+		VALUES
+		(#{consumerPhone},#{shopPhone},#{serverPhone},#{name},#{balance})
 	</insert>
 </mapper>  

@@ -9,7 +9,7 @@
 <title>登陆</title>
 </head>
 <body>
-	<form action="loginok" method="post" onsubmit="return goWelcome()">
+	<form action="loginok" method="GET" onsubmit="return goWelcome()">
 		手机号：<input type="text" id="consumerPhone" name="consumerPhone">
 		<span id="d1"></span> <br />
 		<button type="button" id="code">获取验证码</button>
@@ -42,7 +42,7 @@
 				}
 			}
 		}
-		xml.open("POST", "/BarberShop/getCheckCode?consumerPhone=" + phone,
+		xml.open("GET", "/BarberShop/getCheckCode?consumerPhone=" + phone,
 				true);
 		xml.send();
 	}
