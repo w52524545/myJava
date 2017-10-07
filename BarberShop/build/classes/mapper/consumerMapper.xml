@@ -45,4 +45,13 @@
 		VALUES
 		(#{consumerPhone},#{shopPhone},#{serverPhone},#{name},#{balance})
 	</insert>
+	<delete id="deleteSys" parameterType="String">
+		DELETE FROM sys_user
+		WHERE
+		rn=#{rn};
+	</delete>
+	<delete id="deleteCou" parameterType="String">
+		DELETE FROM consumer
+		WHERE rn=#{rn};
+	</delete>
 </mapper>  

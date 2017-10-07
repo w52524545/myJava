@@ -102,6 +102,13 @@
 					var td4 = document.createElement("td");
 					var td5 = document.createElement("td");
 					var td6 = document.createElement("td");
+					var td7 = document.createElement("td");
+					var a = document.createElement("a");
+					var rn = json[i].rn;
+					a.innerHTML = "删除";
+					td7.appendChild(a);
+					a.setAttribute("href", "javascript:void(0)");
+					a.setAttribute("onclick", "delSys(" + rn + ")");
 					td1.innerHTML = json[i].name;
 					td2.innerHTML = json[i].phone;
 					td3.innerHTML = json[i].role;
@@ -114,6 +121,7 @@
 					tr0.appendChild(td4);
 					tr0.appendChild(td5);
 					tr0.appendChild(td6);
+					tr0.appendChild(td7);
 					T.appendChild(tr0);
 				}
 				T.border = "1";
@@ -156,6 +164,13 @@
 					var td3 = document.createElement("td");
 					var td4 = document.createElement("td");
 					var td5 = document.createElement("td");
+					var td7 = document.createElement("td");
+					var a = document.createElement("a");
+					var rn = json[i].rn;
+					a.innerHTML = "删除";
+					td7.appendChild(a);
+					a.setAttribute("href", "javascript:void(0)");
+					a.setAttribute("onclick", "delCou(" + rn + ")");
 					td1.innerHTML = json[i].name;
 					td2.innerHTML = json[i].consumerPhone;
 					td3.innerHTML = json[i].serverPhone;
@@ -166,6 +181,7 @@
 					tr0.appendChild(td3);
 					tr0.appendChild(td4);
 					tr0.appendChild(td5);
+					tr0.appendChild(td7);
 					T.appendChild(tr0);
 				}
 				T.border = "1";
@@ -286,6 +302,34 @@
 		SserverPhone.value = "";
 		Sbalance.value = "";
 		fd.style.visibility = "hidden";
+	}
+
+	function delSys(rn) {
+		if (window.confirm("您确定要删除吗？")) {
+			var xml = new XMLHttpRequest();
+			xml.onreadystatechange = function() {
+				if (xml.readyState == 4 && xml.status == 200) {
+					alert("删除成功！")
+					getSystem();
+				}
+			}
+			xml.open("GET", "/BarberShop/deleteSys?rn=" + rn, true);
+			xml.send();
+		}
+	}
+
+	function delCou(rn) {
+		if (window.confirm("您确定要删除吗？")) {
+			var xml = new XMLHttpRequest();
+			xml.onreadystatechange = function() {
+				if (xml.readyState == 4 && xml.status == 200) {
+					alert("删除成功！")
+					getVip();
+				}
+			}
+			xml.open("GET", "/BarberShop/deleteCou?rn=" + rn, true);
+			xml.send();
+		}
 	}
 </script>
 </html>

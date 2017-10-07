@@ -70,4 +70,17 @@ public class consumerDaoImpl implements consumerDao {
 		SqlSession.insert("mapper.consumerMapper.AddCou", map);
 	}
 
+	@Override
+	public void deleteSys(String rn) {
+		// TODO Auto-generated method stub
+		SqlSession.delete("mapper.consumerMapper.deleteSys", rn);
+	}
+
+	@Override
+	public void deleteCou(String rn) {
+		// TODO Auto-generated method stub
+		SqlSession.delete("mapper.consumerMapper.deleteCou", rn);
+		
+	}
+
 }

@@ -173,4 +173,24 @@ public class consumerController {
 		response.setHeader("Content-type", "text/html;charset=UTF-8");
 		response.getWriter().write(json);
 	}
+
+	@RequestMapping(value = "/deleteSys", method = RequestMethod.GET)
+	public void delSys(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		String rn = request.getParameter("rn");
+		System.out.println(rn);
+		consumer.deleteSys(rn);
+		String json = JSON.toJSONString(1);
+		response.setHeader("Content-type", "text/html;charset=UTF-8");
+		response.getWriter().write(json);
+	}
+
+	@RequestMapping(value = "/deleteCou", method = RequestMethod.GET)
+	public void delCou(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		String rn = request.getParameter("rn");
+		System.out.println(rn);
+		consumer.deleteCou(rn);
+		String json = JSON.toJSONString(1);
+		response.setHeader("Content-type", "text/html;charset=UTF-8");
+		response.getWriter().write(json);
+	}
 }

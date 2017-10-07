@@ -15,8 +15,12 @@ public interface consumerDao {
 	public List<Map<String, Object>> selectser();
 
 	public List<Map<String, Object>> selectcon();
-	
+
 	public void AddSys(Map<String, Object> map);
-	
+
 	public void AddCou(Map<String, Object> map);
+
+	public void deleteSys(String rn);
+
+	public void deleteCou(String rn);
 }
